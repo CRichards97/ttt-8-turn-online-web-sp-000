@@ -2,7 +2,11 @@ def turn(board)
   puts "Please enter 1-9:"
   input = gets.chomp
   user_index = input_to_index(input)
-end
+  if valid_move? (board, user_index)
+  else
+
+  end
+  end
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
