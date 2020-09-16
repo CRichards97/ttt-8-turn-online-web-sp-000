@@ -3,9 +3,9 @@ def turn(board)
   input = gets.chomp
   user_index = input_to_index(input)
   if valid_move?(board, user_index)
-    #this comes next
+    move(board, user_index, "X")
   else
-    turn(board)#this comes after that
+    turn(board)
   end
 end
 
