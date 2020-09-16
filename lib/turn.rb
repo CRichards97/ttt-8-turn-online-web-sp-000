@@ -5,7 +5,7 @@ def turn(board)
   if valid_move?(board, user_index)
     #this comes next
   else
-    #this comes after that
+    turn(board)#this comes after that
   end
 end
 
