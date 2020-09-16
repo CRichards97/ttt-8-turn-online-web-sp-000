@@ -25,5 +25,6 @@ def input_to_index(user_input)
   user_input.to_i - 1
 end
 def move (board, user_index, user_value)
-
+  move(board, 0, "O")
+  move(board, 8, "X")
 end
