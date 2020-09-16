@@ -3,7 +3,6 @@ def turn(board)
   input = gets.chomp
   user_index = input_to_index(input)
 end
-end
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
