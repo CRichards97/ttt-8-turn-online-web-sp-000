@@ -5,7 +5,7 @@ require_relative '../lib/turn'
 
 puts "Welcome to Tic Tac Toe!"
 
-move(board, 4, "X")
+move(board, 8, "X")
 move(board, 0, "O")
 
 
