@@ -17,10 +17,6 @@ def position_taken?(board, index)
   end
 end
 def valid_move? (board, index)
-  ((index <= 8) && (!position_taken?(board, index)))
-end
-
-def valid_move? (board, index)
   (((0..8).include? (index)) && (!position_taken?(board, index)))
 end
 def input_to_index(user_input)
